@@ -9,7 +9,6 @@
 3. [Regularization](#regularization)
 
 4. [Transfer Learning](#transfer-learning)
-5. 
 ## Fancier optimization
 First Order (1차 미분)
 ### Problems with SGD
