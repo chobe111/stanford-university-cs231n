@@ -2,7 +2,14 @@
 
 # 목차
 
+1. [Fancier optimization](#fancier-optimization)
 
+2. [Model Ensembles](#model-ensembles)
+
+3. [Regularization](#regularization)
+
+4. [Transfer Learning](#transfer-learning)
+5. 
 ## Fancier optimization
 First Order (1차 미분)
 ### Problems with SGD
