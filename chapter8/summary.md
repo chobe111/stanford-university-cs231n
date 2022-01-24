@@ -1,6 +1,12 @@
 # 8강
 
+# 목차
+1. [CPU](#cpu)
 
+2. [GPU](#gpu)
+
+3. [Pytorch and Tensorflow](#pytorch-and-tensorflow)
+4. 
 ## CPU
 - 딥러닝에 관해서는 NVIDIA가 독점
 - 보통 cpu는 한번에 20가지의 일(스레드)을 할 수 있음 
