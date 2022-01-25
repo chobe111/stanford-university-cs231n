@@ -1,5 +1,5 @@
 # Stanford University cs231n
-
+<img src="./assets/cs231nLogo.png"></img>
 ## Todo
 
 ### Lectures
