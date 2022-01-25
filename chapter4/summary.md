@@ -44,3 +44,8 @@ $$ $$
 
 ## Vectorized Example
 <img src="./../assets/chapter4/vectorized-example.png">
+
+$$
+q = Wx, \frac{\partial f}{\partial W} = ?, \frac{\partial f}{\partial x} =  ?
+$$
+
