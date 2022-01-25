@@ -18,3 +18,6 @@
 ### Tasks
 - [ ] task1
 - [ ] task2
+
+### Exam
+- [ ] midterm-exam
