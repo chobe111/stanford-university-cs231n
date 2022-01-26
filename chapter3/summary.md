@@ -2,6 +2,13 @@
 
 # 목차
 
+1. [Loss functions](#loss-functions)
+
+2. [Regularization Loss](#regularization-loss)
+
+3. [Optimizations](#optimizations)
+
+
 ## Loss functions
 학습의 잘못된 정도를 수치화 하는 것
 
@@ -46,7 +53,9 @@ $$
 ### 정규화의 두가지 역할
 - 모델이 덜 복잡해지도록 함
 - 모델에 soft penalty를 추가함
-- 어떤 문제에서 복잡하다는 것을 어떻게 정의할지는 반드시 고민해야함
+
+
+>어떤 문제에서 복잡하다는 것을 어떻게 정의할지는 반드시 고민해야함
 
 ### 일반적으로 쓰이는 기법
 - L1
@@ -70,3 +79,6 @@ Train 데이터에서 한번도 보지 못한 Test 데이터가 들어올 시 �
 
 ## Optimizations
 - 가장 좋은 가중치 값을 찾아가는 것
+
+### Stochastic Gradient Descent (SGD)
+- loss는 그저 각 데이터 loss의 그래디언트 합 N이 커지면 W를 일일히 업데이트 하는데 많은 시간이 걸림
