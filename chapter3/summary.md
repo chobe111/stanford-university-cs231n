@@ -74,7 +74,7 @@ Train 데이터에서 한번도 보지 못한 Test 데이터가 들어올 시 �
 
 이러한 Overfitting 문제를 해결하기위해 Regularization 로스를 사용함
 
-<img src="./../assets/chapter5/dataloss+regloss.png"/>
+<img src="./../assets/chapter5/datalossregloss.png"/>
 
 
 ## Optimizations
