@@ -9,6 +9,8 @@
 
   
 ## Recurrent Neural Network (RNN)
+- 일반적으로 2~3개의 layer를 사용함.
+
 일반적인 NN 아키텍쳐는 아래 그림과 같음
 <img src="./../assets/chapter10/vanilia-neural-network.png"/>
 
@@ -59,10 +61,19 @@ layer가 깊어지면 깊어질수록 ${W_{hh}}$가 같기때문에 **Exploding 
 <img src="./../assets/chapter10/vanilla-rnn-gradient-flow.png"/>
 
 ## Long Short Term Memory (LSTM)
+<img src="./../assets/chapter10/long-short-term-memory.png"/>
+
 RNN에서 발생하는 vanishing 과 exploding gradient 문제점을 해결하기위해 디자인 된 모델
+- RNN은 동일한 가중치 행렬 W를 곱하는 반면 LSTM은 매번달라지는 값 F를 곱하기 때문에 gradient 문제점을 해결 할 수 있음.
 
 ###  gates
 * input gate: Wheter to write to cell
 * forget gate: Wheter to erase cell
 * gate gate: How much write to cell
 * output gate: How much to reveal cell
+
+## Image Captioning with Attension
+<img src="./../assets/chapter10/image-captioning-with-attension.png"/>
+- 이미지 위치에 따른 분포를 계산
+
+
